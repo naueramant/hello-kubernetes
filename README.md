@@ -1,6 +1,6 @@
 # Hello Kubernetes
 
-Small (17MB) and fast image written in golang which can be deployed on a Kubernetes cluster. When accessed via a web browser it will display:
+Small (8MB compressed / 17MB un-compressed) and fast image written in golang which can be deployed on a Kubernetes cluster. When accessed via a web browser it will display:
 
 - a "Hello Kubernetes" message
 - the pod name
