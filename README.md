@@ -89,7 +89,7 @@ spec:
           value: "80"
 ```
 
-## Insperation
+## inspiration
 
 This repository mostly just contains a re-write of [paulbouwer/hello-kubernetes](https://github.com/paulbouwer/hello-kubernetes) so thanks a lot to paulbouwer for the original project!
 
