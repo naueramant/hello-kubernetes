@@ -19,6 +19,7 @@
             justify-content: center;
             align-items: center;
             font-family: monospace;
+            text-align: center;
         }
 
         html {
@@ -43,7 +44,6 @@
 
         p {
             color: #333;
-            text-align: center;
             margin-top: 32px;
             font-size: 24px;
         }
