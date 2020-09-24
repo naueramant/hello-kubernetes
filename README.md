@@ -17,10 +17,9 @@ It is available on DockerHub as [naueramant/hello-kubernetes](https://hub.docker
 
 ### Standard Configuration
 
-Deploy to your Kubernetes cluster using the hello-kubernetes.yaml, which contains definitions for the service and deployment objects:
+Deploy to your Kubernetes with a resource definitions for the service and deployment:
 
 ```yaml
-# hello-kubernetes.yaml
 apiVersion: v1
 kind: Service
 metadata:
@@ -52,10 +51,6 @@ spec:
         image: naueramant/hello-kubernetes
         ports:
         - containerPort: 8080
-```
-
-```sh
-$ kubectl apply -f yaml/hello-kubernetes.yaml
 ```
 
 ### Specify Custom Port
