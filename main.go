@@ -32,7 +32,7 @@ func main() {
 	}
 
 	var conf Config
-	if err := envconfig.Process("myapp", &conf); err != nil {
+	if err := envconfig.Process("", &conf); err != nil {
 		logrus.Fatal(err)
 	}
 
